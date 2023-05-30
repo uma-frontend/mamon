@@ -264,8 +264,45 @@ li{
 }
 
 /*- FOOTER*/
+.footer {
+   background-color: var(--bg-footer-color);
+   padding: 20px 0px;
+}
+.footer__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__logo-img {
+   margin: 0px 20px 0px 0px;
+}
+.footer__logo-text {
+   font-size: 14px;
+   font-weight: 700;
+   color: var(--main-text-color);
+   text-transform: uppercase;
+}
+.footer__social {
+   display: flex;
+   align-items: center;
+}
+.footer__item:not(:last-child) {
+   margin-right: 40px;
+}
+.footer__link {
+   display: flex;
+   font-size: 24px;
+   color: var(--main-text-color);
+   transition: all 0.2s linear;
+}
+   /*hover and active*/
+.footer__link:hover{
+   color: var(--accent-color);
 
-
+}
+.footer__link:active{
+   opacity: 0.6;
+}
 /*MEDIA QUERY*/
 
    /* LAPTOP 1024 */
