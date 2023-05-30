@@ -67,6 +67,46 @@ li{
 /* ===== LET'S GO CODING =====*/
 
 /*- HEADER*/
+.header {
+   padding: 53px 0px;
+}
+.header__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.logo {
+   display: flex;
+   align-items: center;
+}
+.logo__img {
+   margin: 0px 25px 0px 0px;
+}
+.logo__text {
+   font-size: 24px;
+   font-weight: 700;
+   color: var(--heading-color);
+}
+.menu {
+   display: flex;
+   align-items: center;
+}
+.menu__item:not(:last-child) {
+   margin: 0px 37px 0px 0px;
+}
+
+.menu__link {
+   font-size: 14px;
+   font-weight: 700;
+   color: var(--heading-color);
+}
+.menu__btn {
+   display: inline-block;
+   padding: 3.5px 14px;
+   border-radius: 5px;
+   color: var(--white-color);
+   background-color: var(--accent-color);
+}
 
 
 /*- CONTENT*/
