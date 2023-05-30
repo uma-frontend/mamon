@@ -85,6 +85,14 @@ li{
    font-size: 24px;
    font-weight: 700;
    color: var(--heading-color);
+   transition: all 0.2s linear;
+}
+   /*hover and active*/
+.logo:hover .logo__text{
+   color: var(--accent-color);
+}
+.logo:active{
+   opacity: 0.6;
 }
 .menu {
    display: flex;
@@ -98,6 +106,15 @@ li{
    font-size: 14px;
    font-weight: 700;
    color: var(--heading-color);
+   transition: all 0.2s linear;
+}
+   /*hover and active*/
+.menu__link:hover{
+   color: var(--accent-color);
+
+}
+.menu__link:active{
+   opacity: 0.6;
 }
 .menu__btn {
    display: inline-block;
