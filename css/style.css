@@ -217,6 +217,22 @@ li{
 }
 
 /*- CLIENTS*/
+.clients__container {
+   position: relative;
+   padding: 80px 0px;
+}
+.clients__list {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px 0px -55px 0px;
+}
+.clients__item {
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 0px 55px 0px;
+}
 
 
 /*- OUR TEAM*/
