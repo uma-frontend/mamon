@@ -236,7 +236,36 @@ li{
 
 
 /*- OUR TEAM*/
-
+.our-team__container {
+   padding: 100px 0px;
+   position: relative;
+}
+.our-team__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0px 0px -60px 0px;
+}
+.our-team__item {
+   width: 33.33%;
+   display: flex;
+   align-items: center;
+   margin: 0px 0px 60px 0px;
+}
+.our-team__img {
+   border-radius: 50%;
+   margin: 0px 35px 0px 0px;
+}
+.our-team__title {
+   font-size: 28px;
+   font-weight: 700;
+   color: var(--heading-color);
+   margin: 0px 0px 11px 0px;
+}
+.our-team__text {
+   font-size: 14px;
+   color: var(--main-text-color);
+}
 
 /*- FOOTER*/
 
