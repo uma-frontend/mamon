@@ -155,8 +155,6 @@ li{
 }
 
 /*- SERVICES*/
-.services {
-}
 .line {
    width: 100%;
    height: 0.5px;
@@ -212,8 +210,6 @@ li{
    font-size: 14px;
    font-weight: 400;
    color: var(--main-text-color);
-   line-height: auto;
-
 }
 
 /*- CLIENTS*/
