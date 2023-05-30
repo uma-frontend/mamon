@@ -1,10 +1,14 @@
 /* GLOBAL STYLES */
    /*Custom property*/
 :root{
-   --text-font: sans-serif;/* - */
-   --accent-color: #000;
-   --main-text-color: #000;
+   --text-font: "Ubuntu", sans-serif;/* - */
+   --accent-color: #5528FF;
+   --main-text-color: #B2B2B2;
+   --heading-color: #202020;
+   --other-text-color: #4F4F4F;
+   --line-text-color: #c2c2c2;
    --bg-color: #fff;
+   --bg-footer-color: #f7f7f7;
    --black-color: #000;
    --white-color: #fff;
 }
@@ -35,7 +39,7 @@ body{
    font-family: var(--text-font); /* - */
    font-size: 16px; /* - */
    line-height: 16px; /* - */
-   letter-spacing: 0.5px;
+   letter-spacing: 0px;
 }
 
 
@@ -55,21 +59,29 @@ li{
 /* CONTAINER */
 .container{
    width: 100%;
-   max-width: 1160px; /* - */
+   max-width: 1240px; /* - */
    padding: 0px 30px;
    margin: 0px auto;
 }
 
 /* ===== LET'S GO CODING =====*/
 
-/*SITE HEADER*/
+/*- HEADER*/
 
 
-/*MAIN SECTION*/
+/*- CONTENT*/
 
 
-/*SITE FOOTER*/
+/*- SERVICES*/
 
+
+/*- CLIENTS*/
+
+
+/*- OUR TEAM*/
+
+
+/*- FOOTER*/
 
 
 /*MEDIA QUERY*/

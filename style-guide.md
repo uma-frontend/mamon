@@ -24,31 +24,34 @@
 - 4K: 2560px
 
 #### Colors + var
-- Background Color
-- Color
-- color 1
-- color 2
-- color 3
-- color 4
+- Background Color: #fff
+- Color : #5528FF
+- color 1 #B2B2B2
+- color 2 #202020
+- color 3 #C2C2C2
+- color 4 #000000
+- color 5 #4F4F4F
+- color 6 #838997
+- color 7 #F7F7F7
 
 #### Body Copy + var
-- Font Family:
-- Font size:
-- Font Weight:
+- Font Family: [Ubuntu]
+- Font size: 14px
+- Font Weight: 400
 
 #### Font
-- Family: [Lexend Deca]
-- Weights: 400
-
-- Family: [Big Shoulders Display]
-- Weights: 700
+- Family: [Ubuntu]
+- Weights: 300, 400, 700
 
 
 #### Container
-- max-width:
-- padding:
+- max-width: 1180px
+- padding: 30px
 
 #### SECTIONS
-- SITE HEADER
-- MAIN SECTION
-- SITE FOOTER
+- HEADER
+- CONTENT
+- SERVICES
+- CLIENTS
+- OUR TEAM
+- FOOTER
